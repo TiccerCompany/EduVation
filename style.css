@@ -1,0 +1,108 @@
+.mDesg {
+  position: relative;
+}
+
+div.splash {
+  width: 100%;
+  height: 100%;
+}
+
+.splash .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0 50px;
+}
+
+.splash .container * {
+  color: #000000;
+  text-decoration: none !important;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.splash .container .splash_content {
+  width: 50%;
+  height: auto;
+}
+
+.splash .container .splash_content h1 {
+  font-size: 56px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.splash .container .splash_content span {
+  color: #474747b9;
+  font-size: 21px;
+  margin-top: 20px 0;
+}
+
+.splash .container .splash_content p {
+  font-size: 24px;
+  color: #343434f5;
+  margin: 10px 0;
+}
+
+.splash .container .splash_content .buttons {
+  position: relative;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash .container .splash_content .buttons .btn {
+  border-radius: 25px;
+  border: 2px solid #0099FF;
+  padding: 12px 18px;
+  font-size: 26px;
+  background-color: #0099FF;
+  color: #fff;
+}
+
+.splash .container .splash_content .buttons .btn:nth-child(2) {
+  margin-left: 20px;
+  background-color: #38d39f;
+  color: #fff;
+  border: 2px solid #38d39f;
+}
+
+.splash .container .splash_content .buttons .btn:nth-child(1):hover {
+  background-color: #36aaf7;
+  color: #fff;
+}
+
+.splash .container .splash_content .buttons .btn:nth-child(2):hover {
+  background-color: #51eab7;
+}
+
+.splash .container .splash_image_content {
+  max-width: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.splash .container .splash_image_content .image_box {
+  width: 760px;
+  height: auto;
+}
+
+.splash .container .splash_image_content .image_box img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
